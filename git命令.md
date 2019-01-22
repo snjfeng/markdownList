@@ -5,6 +5,7 @@ git remote add origin
 
 git pull --rebase origin master
 
+<<<<<<< HEAD
 git push -u origin --all
 
 
@@ -32,4 +33,6 @@ git push -u origin --all
 - 创建+切换分支：git checkout -b <name>
 - 合并某分支到当前分支：git merge <name>
 - 删除分支：git branch -d <name>
+=======
+>>>>>>> d70c435bf17501e5345070e9a8c8b57531715a13
 
