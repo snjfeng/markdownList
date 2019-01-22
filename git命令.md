@@ -12,46 +12,17 @@ git push -u origin --all
 
 ## 版本回退 ##
 
-
 - git reset --hard commit_id 回退版本
-
-
-
 - git log 查看提交历史，
-
-
-
 - git reflog 查看命令历史
-
-
-
-
-
 - git checkout -- file 丢弃工作区修改
-
-
 - git reset HEAD <file> 丢弃暂存区修改
-
-
-
 - git rm 用于删除一个文件
 
-
 ## 远程仓库 ##
-
-
 - git remote add origin git@server-name:path/repo-name.git 关联一个远程库
-
-
-
 - git push -u origin master 第一次推送master分支的所有内容，并把本地master关联到远程
-
-
-
 - git push origin master 推送最新修改；
-
-
-
 - git clone 克隆远程仓库
 
 ## 分支管理 ##
