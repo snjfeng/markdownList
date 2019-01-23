@@ -31,4 +31,11 @@ git push -u origin --all
 - 创建+切换分支：git checkout -b <name>
 - 合并某分支到当前分支：git merge <name>
 - 删除分支：git branch -d <name>
+- 分支历史 git log --graph --pretty=oneline --abbrev-commit
+
+## 多人协作 ##
+- 远程库信息 git remote -v；
+- 从本地推送分支 git push origin branch-name
+- 本地创建和远程分支对应的分支使用 git checkout -b branch-name origin/branch-name
+- 建立本地分支和远程分支的关联 git branch --set-upstream branch-name origin/branch-name 
 
