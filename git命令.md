@@ -41,3 +41,5 @@ git push -u origin --all
 
 ## 整理分支 ##
 - 变基 git rebase
+
+## 标签管理 ##
