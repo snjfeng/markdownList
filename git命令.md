@@ -39,3 +39,5 @@ git push -u origin --all
 - 本地创建和远程分支对应的分支使用 git checkout -b branch-name origin/branch-name
 - 建立本地分支和远程分支的关联 git branch --set-upstream branch-name origin/branch-name 
 
+## 整理分支 ##
+- 变基 git rebase
